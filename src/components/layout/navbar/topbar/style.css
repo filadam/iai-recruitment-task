@@ -1,0 +1,62 @@
+.topBar {
+  color: white;
+  height: 50px;
+  width: 100%;
+  background-color: #2e2e2e;
+}
+.topBar .topBar--contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+.topBar .topBar--contents p {
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.topBar .topBar--contents p .faIcon {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .topBar {
+    height: 40px;
+  }
+  .topBar .topBar--contents {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .topBar {
+    height: 40px;
+  }
+  .topBar .topBar--contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .topBar .topBar--contents p {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .topBar .topBar--contents p .faIcon {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .topBar {
+    height: 40px;
+  }
+  .topBar .topBar--contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .topBar .topBar--contents p {
+    padding: 0px;
+    margin-right: 10px;
+  }
+  .topBar .topBar--contents p .faIcon {
+    margin-right: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
