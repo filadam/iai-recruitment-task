@@ -2,13 +2,13 @@ import React from 'react';
 import './style.css'
 import TopBar from './topbar/index'
 import MidBar from './midbar/index'
-import Bucket from './bucket/index'
+import Basket from './basket/index'
 
 class NavBar extends React.Component {
     render() {
         return (
             <>
-                <Bucket />
+                <Basket />
                 <TopBar />
                 <MidBar />
             </>
