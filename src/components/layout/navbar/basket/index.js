@@ -1,23 +1,17 @@
 import React from 'react';
 import badge from './img/badge.png'
 import badgebasket from './img/badgebasket.png'
+import "./style.css"
 
 class Basket extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="container  d-none d-md-block">
                 <div
-                    className="navbar__item navbar__badge" src={badge}
+                    className="navbar__item navbar__badge"
                     style={{
-                        position: "fixed",
-                        marginLeft: 1000,
-                        zIndex: 10,
                         backgroundImage: `url(${badge})`,
-                        width: "100%",
-                        height: "100%",
                         backgroundRepeat: "no-repeat",
-                        color: "white",
-                        fontWeight: "bold",
                     }}
                 >
                     <div

@@ -22,7 +22,14 @@
     font-weight: bold;
   }
 }
-
+.lowerNavBar {
+  height: 50px;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
 @media only screen and (max-width: 1200px) {
   .navbar {
     display: flex;
@@ -103,7 +110,7 @@
     align-items: center;
     justify-content: center;
     .navbar__logo {
-      width: 30%!important;
+      width: 30% !important;
     }
     .navbar__item.navbar__logo {
     }
