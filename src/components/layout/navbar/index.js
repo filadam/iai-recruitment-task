@@ -5,6 +5,7 @@ import MidBar from './midbar/index'
 import NavBarLg from './navbarlg/index'
 import NavBarSm from './navbarsm/index'
 import Basket from './basket/index'
+import Breadcrumbs from './breadcrumbs/index'
 
 class NavBar extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class NavBar extends React.Component {
                 <TopBar />
                 <NavBarLg />
                 <NavBarSm />
+                <Breadcrumbs />
             </>
         )
     }

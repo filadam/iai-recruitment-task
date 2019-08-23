@@ -107,7 +107,7 @@
     justify-content: center;
   }
   .navbar .navbar__logo {
-    width: 30% !important;
+    /* width: 30% !important; */
   }
   .navbar .nav-link {
     color: black !important;
