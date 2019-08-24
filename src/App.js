@@ -4,6 +4,7 @@ import CarouselA from './components/carousell/index'
 import Cards from './components/cards/index'
 import Info from './components/info/index'
 import Articles from './components/articles/index'
+import Footer from './components/layout/footer/index'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Cards />
       <Info />
       <Articles />
+      <Footer />
     </>
   );
 }

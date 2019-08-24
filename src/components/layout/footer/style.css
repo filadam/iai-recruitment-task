@@ -1,0 +1,113 @@
+.footerBg {
+  background-image: url(./img/footer.png);
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  text-decoration: none;
+  transition: 200ms;
+  color: #da2128;
+}
+a:hover:not(:hover) {
+  color: gray;
+  transition: 200ms;
+}
+
+.footer__container {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  transition: 300ms;
+}
+.footer__container .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 250px;
+}
+.footer__container .row .col-sm .content__container {
+  width: 100%;
+}
+
+.footerl {
+  background-color: #171717;
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footerBg {
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    height: 550px;
+  }
+
+  .footer__container {
+    transition: 300ms;
+  }
+  .footer__container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer__container .row .col-sm .content__container {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footerBg {
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    height: 550px;
+  }
+
+  .footer__container {
+    font-size: 12px;
+  }
+  .footer__container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__container .row .col-sm .content__container {
+    width: 200px;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .footerBg {
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    position: absolute;
+  }
+
+  .footer__container {
+    font-size: 12px;
+  }
+  .footer__container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+  }
+  .footer__container .row .col-sm .content__container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
