@@ -14,6 +14,12 @@
 }
 .topBar .topBar--contents p .faIcon {
   margin-right: 10px;
+  transition: 200ms;
+}
+
+.animeTopBar {
+  color: white !important;
+  transition: 200ms;
 }
 
 @media only screen and (max-width: 1000px) {

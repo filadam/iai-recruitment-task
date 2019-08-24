@@ -7,6 +7,13 @@
 .cards__wrapper .card__item {
   width: 16rem;
   margin: 10px;
+  border: none;
+  border-top: solid 3px gray;
+}
+.cards__wrapper .card__item:hover {
+  transition: 200ms;
+  color: #da2128;
+  border-bottom: solid 3px #da2128;
 }
 
 /*# sourceMappingURL=style.css.map */

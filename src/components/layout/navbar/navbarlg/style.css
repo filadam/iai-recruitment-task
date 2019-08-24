@@ -12,6 +12,17 @@
 .navbar .dropdown.nav-item {
   margin-top: 12px;
 }
+.navbar .navbar__logo {
+  filter: grayscale(0);
+  transition: 300ms;
+}
+.navbar .navbar__logo:hover {
+  filter: grayscale(100%);
+  transition: 300ms;
+}
+.navbar .navbar__logo:hover:not(:hover) {
+  filter: grayscale(0%);
+}
 .navbar .navbar__item {
   padding-right: 60px;
   flex-wrap: wrap;
@@ -107,7 +118,7 @@
     justify-content: center;
   }
   .navbar .navbar__logo {
-    /* width: 30% !important; */
+    width: 30% !important;
   }
   .navbar .nav-link {
     color: black !important;

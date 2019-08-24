@@ -1,18 +1,22 @@
-.jobs__section--wrapper {
+.info__section--wrapper {
   margin-top: 100px;
   transition: 300ms;
 }
 
-.jobs__container {
+.info__container {
   width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.jobs__container .item__thumb {
+.info__container .item__thumb {
   float: right;
   margin-right: 10px;
+}
+
+.infoItem {
+  margin-top: 20px;
 }
 
 .item__content {
@@ -20,19 +24,20 @@
   text-align: justify;
 }
 
-.jobs__bigimg {
-  width: 400px;
+.info__bigimg {
+  width: 100%;
   overflow: hidden;
+  filter: grayscale(100);
 }
 
 @media only screen and (max-width: 1200px) {
-  .jobs__bigimg {
+  .info__bigimg {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .jobs__container {
+  .info__container {
     margin: 20px;
     width: 100%;
     order: 2;
@@ -44,13 +49,13 @@
   }
 }
 @media only screen and (max-width: 1000px) {
-  .jobs__bigimg {
+  .info__bigimg {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .jobs__container {
+  .info__container {
     margin: 20px;
     width: 100%;
     order: 2;
@@ -62,13 +67,13 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  .jobs__bigimg {
+  .info__bigimg {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .jobs__container {
+  .info__container {
     width: 100%;
     order: 2;
   }
@@ -79,7 +84,7 @@
   }
 }
 @media only screen and (max-width: 575px) {
-  .jobs__section--wrapper {
+  .info__section--wrapper {
     margin-top: 0px;
   }
 
