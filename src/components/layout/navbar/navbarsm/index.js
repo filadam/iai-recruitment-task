@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import { Dropdown, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import flagPL from './img/25.jpg'
 import flagDE from './img/11.jpg'
 import LogoImg from './img/ASSASINARMY_projector_1170px.png'

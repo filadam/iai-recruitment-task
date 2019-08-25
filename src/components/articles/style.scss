@@ -1,9 +1,17 @@
-.aboutme__section--wrapper {
+.articles__section--wrapper {
   margin-top: 100px;
   transition: 300ms;
+  .articles__bigimg img {
+    border-top: solid 3px #dd3239;
+    border-bottom: solid 3px #dd3239;
+  }
+  .articles__item img {
+    border-radius: 150px;
+    border: solid 5px #dd3239;
+  }
 }
 
-.aboutme__container {
+.articles__container {
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -18,12 +26,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .aboutme__bigimg {
+  .articles__bigimg {
     img {
       width: 500px;
     }
   }
-  .aboutme__container {
+  .articles__container {
     width: 400px;
     img {
       width: 150px;
@@ -32,7 +40,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .aboutme__section--wrapper {
+  .articles__section--wrapper {
     .row {
       display: flex;
       justify-content: center;
@@ -42,17 +50,17 @@
       }
     }
   }
-  .aboutme__container {
+  .articles__container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 500px;
     margin: 20px;
-    .aboutme__item {
+    .articles__item {
       margin-bottom: 30px !important;
     }
-    .aboutme__bigimg {
+    .articles__bigimg {
       img {
         width: 100%;
       }
@@ -63,7 +71,7 @@
   .item__content {
     text-justify: auto;
   }
-  .aboutme__bigimg {
+  .articles__bigimg {
     img {
       width: 100%;
       overflow: hidden;

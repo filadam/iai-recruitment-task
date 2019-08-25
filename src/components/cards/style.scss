@@ -6,12 +6,37 @@
   .card__item {
     width: 16rem;
     margin: 10px;
-    border:none;
+    border: none;
     border-top: solid 3px gray;
     &:hover {
-      transition:200ms;
+      transition: 200ms;
       color: #da2128;
       border-bottom: solid 3px #da2128;
     }
   }
+}
+.btn {
+  background-color: black;
+  border: none;
+  &:hover {
+    background-color: #da2128;
+    transition: 200ms;
+    &:not(:hover) {
+      transition: 500ms;
+      background-color: black;
+    }
+  }
+}
+.card-subtitle {
+  justify-content: end;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: gray;
+}
+.sectionTitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: -40px;
 }
