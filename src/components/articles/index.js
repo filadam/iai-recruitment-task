@@ -13,34 +13,28 @@ function Articles() {
             <Card className="bg-dark text-white" data-aos="fade-up">
                 <Card.Img src={imgo} alt="Card image" />
                 <Card.ImgOverlay className="container">
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Artykuł 1</Card.Title>
                     <Card.Text >
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    Duis posuere pretium dictum. Integer ut porta massa.
     </Card.Text>
-                    <Card.Text>Last updated 3 mins ago</Card.Text>
                 </Card.ImgOverlay>
             </Card>
             <Card className="bg-dark text-white" data-aos="fade-up">
                 <Card.Img src={imgt} alt="Card image" />
                 <Card.ImgOverlay className="container">
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Artykuł 2</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    Donec magna sem, suscipit nec fringilla quis, ultrices ac sapien. Vivamus porttitor odio sit amet posuere commodo. Maecenas quis magna dapibus, maximus eros eu, feugiat mi.
     </Card.Text>
-                    <Card.Text>Last updated 3 mins ago</Card.Text>
                 </Card.ImgOverlay>
             </Card>
             <Card className="bg-dark text-white" data-aos="fade-up">
                 <Card.Img src={imgth} alt="Card image" />
                 <Card.ImgOverlay className="container">
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Artykuł 3</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    Vestibulum consectetur neque nisl, ut malesuada lectus vestibulum non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     </Card.Text>
-                    <Card.Text>Last updated 3 mins ago</Card.Text>
                 </Card.ImgOverlay>
             </Card>
         </div>
