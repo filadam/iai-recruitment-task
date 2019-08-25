@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import { Dropdown, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import flagPL from './img/25.jpg'
 import flagDE from './img/11.jpg'
 import LogoImg from './img/ASSASINARMY_projector_1170px.png'
@@ -13,9 +13,6 @@ const flagStyle = {
     height: 10,
     margin: 10,
 }
-const flag = {
-    background: `url(${flagPL})`
-}
 
 class NavBarLg extends React.Component {
     render() {
@@ -24,7 +21,7 @@ class NavBarLg extends React.Component {
                 <Navbar className=" d-none d-md-block" collapseOnSelect expand="md" style={{ backgroundImage: `url(${bg})` }}>
                     <div className="container wrapper">
                         <Navbar.Brand href="#home">
-                            <img className="navbar__item navbar__logo" src={LogoImg} />
+                            <img className="navbar__item navbar__logo" src={LogoImg} alt="img"/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
@@ -49,9 +46,9 @@ class NavBarLg extends React.Component {
                                     </div>
                                 </Nav.Link>
                                 <NavDropdown title="PL" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#/action-1">PL<img style={flagStyle} src={flagPL} /></NavDropdown.Item>
+                                    <NavDropdown.Item href="#/action-1">PL<img style={flagStyle} src={flagPL} alt="img"/></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#/action-2">DE<img style={flagStyle} src={flagDE} /></NavDropdown.Item>
+                                    <NavDropdown.Item href="#/action-2">DE<img style={flagStyle} src={flagDE} alt="img"/></NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href="#">TWOJE KONTO</Nav.Link>
                             </Nav>

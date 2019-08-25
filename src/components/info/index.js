@@ -29,7 +29,7 @@ class Info extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm info__bigimg">
-                            <img src="https://i.dlpng.com/static/png/136015_preview.png" />
+                            <img src="https://i.dlpng.com/static/png/136015_preview.png" alt="img" />
                         </div>
 
                     </div>

@@ -4,8 +4,6 @@ import Card from 'react-bootstrap/Card'
 import imgo from './img/1.jpg'
 import imgt from './img/2.jpg'
 import imgth from './img/3.jpg'
-import AOS from 'aos'
-import 'aos/dist/aos.css';
 
 function Articles() {
     return (

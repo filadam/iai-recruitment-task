@@ -13,10 +13,6 @@ const flagStyle = {
     height: 10,
     margin: 10,
 }
-const flag = {
-    background: `url(${flagPL})`
-}
-
 class NavBarSm extends React.Component {
     render() {
         return (
@@ -25,7 +21,7 @@ class NavBarSm extends React.Component {
                 <Navbar className="navbarsm d-block d-sm-block d-md-none" collapseOnSelect expand="md" style={{ backgroundImage: `url(${bg})` }}>
                     <div className="container wrapper">
                         <Navbar.Brand href="#home">
-                            <img className="navbar__item navbar__logo" src={LogoImg} />
+                            <img className="navbar__item navbar__logo" src={LogoImg} alt="img"/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
@@ -50,9 +46,9 @@ class NavBarSm extends React.Component {
                                     </div>
                                 </Nav.Link>
                                 <NavDropdown title="PL" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#/action-1">PL<img style={flagStyle} src={flagPL} /></NavDropdown.Item>
+                                    <NavDropdown.Item href="#/action-1">PL<img style={flagStyle} src={flagPL} alt="img"/></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#/action-2">DE<img style={flagStyle} src={flagDE} /></NavDropdown.Item>
+                                    <NavDropdown.Item href="#/action-2">DE<img style={flagStyle} src={flagDE} alt="img"/></NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="GOTOWE ZESTAWY DO GRY" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#/action-1">ZESTAWY X</NavDropdown.Item>

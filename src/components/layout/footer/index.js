@@ -34,12 +34,12 @@ class Footer extends React.Component {
                                             flexDirection: "column",
                                         }}
                                     >
-                                        <p>INFORMACJE</p>
-                                        <a href="#">Informacje o sklepie</a>
-                                        <a href="#">Wysyłka</a>
-                                        <a href="#">Regulamin</a>
-                                        <a href="#">Polityka prywatności</a>
-                                        <a href="#">Odstąpienie od umowy</a>
+                                        INFORMACJE
+                                        <a href="#home">Informacje o sklepie</a>
+                                        <a href="#home">Wysyłka</a>
+                                        <a href="#home">Regulamin</a>
+                                        <a href="#home">Polityka prywatności</a>
+                                        <a href="#home">Odstąpienie od umowy</a>
                                     </p>
                                 </div>
                             </div>
@@ -51,24 +51,24 @@ class Footer extends React.Component {
                                             flexDirection: "column",
                                         }}
                                     >
-                                        <p>MOJE KONTO</p>
-                                        <a href="#">Zarejestruj się</a>
-                                        <a href="#">Moje zamówienia</a>
-                                        <a href="#">Koszyk</a>
-                                        <a href="#">Ulubione</a>
-                                        <a href="#">Historia Transakcji</a>
+                                        MOJE KONTO
+                                        <a href="#home">Zarejestruj się</a>
+                                        <a href="#home">Moje zamówienia</a>
+                                        <a href="#home">Koszyk</a>
+                                        <a href="#home">Ulubione</a>
+                                        <a href="#home">Historia Transakcji</a>
                                     </p>
                                 </div>
                             </div>
                             <div className="col-sm">
                                 <div className="content__container">
-                                    <p>
-                                        <p>KONTAKT</p>
+                                    <span>
+                                        KONTAKT
                                         <p style={{ fontSize: "22px", }}>+48 574 046 421</p>
                                         <p style={{ fontSize: "22px", marginTop: "-15px", }}>kontakt@assassinarmy.pl</p>
                                         <FontAwesomeIcon style={iconStyles} className="faIcon fa-2x" icon={faFacebookF} />
                                         <FontAwesomeIcon style={iconStyles} className="faIcon fa-2x" icon={faInstagram} />
-                                    </p>
+                                    </span>
                                 </div>
                             </div>
                             <div className="col-sm">
@@ -79,12 +79,12 @@ class Footer extends React.Component {
                                             flexDirection: "column",
                                         }}
                                     >
-                                        <p>MOJE ZAMÓWIENIA</p>
-                                        <a href="#">Sprawdź status zamówienia</a>
-                                        <a href="#">Śledź przesyłkę</a>
-                                        <a href="#">Reklamacje</a>
-                                        <a href="#">Zwroty</a>
-                                        <a href="#">Informacje o wymianie</a>
+                                        MOJE ZAMÓWIENIA
+                                        <a href="#home">Sprawdź status zamówienia</a>
+                                        <a href="#home">Śledź przesyłkę</a>
+                                        <a href="#home">Reklamacje</a>
+                                        <a href="#home">Zwroty</a>
+                                        <a href="#home">Informacje o wymianie</a>
                                     </p>
                                 </div>
                             </div>

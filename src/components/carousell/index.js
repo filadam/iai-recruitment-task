@@ -57,18 +57,21 @@ class CarouselA extends React.Component {
                     <img
                         src={handleResponsivePhoto(e)}
                         className="d-block w-100 img-fluid"
+                        alt="img"
                     />
                 </Carousel.Item>
                 <Carousel.Item style={styledSlider}>
                     <img
                         src={handleResponsivePhoto(e)}
                         className="d-block w-100 img-fluid"
+                        alt="img"
                     />
                 </Carousel.Item>
                 <Carousel.Item style={styledSlider}>
                     <img
                         src={handleResponsivePhoto(e)}
                         className="d-block w-100 img-fluid"
+                        alt="img"
                     />
                 </Carousel.Item>
             </Carousel>

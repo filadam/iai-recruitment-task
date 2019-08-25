@@ -31,9 +31,10 @@ class Basket extends React.Component {
                             style={{
                                 marginRight: 10,
                             }}
+                            alt="img"
                         />
                         <a
-                            href="#"
+                            href="#home"
                             style={{
                                 fontSize: 10,
                                 marginTop: -30,
@@ -44,7 +45,7 @@ class Basket extends React.Component {
                             Twój Koszyk
                         </a>
                         <a
-                            href="#"
+                            href="#home"
                             style={{
                                 marginLeft: -55,
                                 color: "white",
