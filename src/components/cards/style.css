@@ -16,6 +16,20 @@
   border-bottom: solid 3px #da2128;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #da2128 !important;
+  border-color: black !important;
+  outline: none;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .btn {
   background-color: black;
   border: none;
