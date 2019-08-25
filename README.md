@@ -40,3 +40,4 @@ Run the project on localhost
 - [SASS](https://sass-lang.com/)
 - [jQuery](https://jquery.com/)
 - [FontAwesome](https://fontawesome.com/)
+- [AOS](https://michalsnik.github.io/aos/)
