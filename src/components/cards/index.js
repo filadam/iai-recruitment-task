@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 function Cards() {
     return (
@@ -26,7 +27,7 @@ function Cards() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium tristique neque, fermentum viverra diam bibendum vitae.
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto" variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto" variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="card__item">
@@ -37,7 +38,7 @@ function Cards() {
                         Lorem ipsum dolor sit ametVestibulum feugiat et ex in vehicula. Nam pulvinar molestie libero, vel accumsan ligula bibendum eget.
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto" variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto" variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="card__item">
@@ -49,7 +50,7 @@ function Cards() {
     
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto" variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto" variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="card__item">
@@ -60,7 +61,7 @@ function Cards() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium tristique neque, fermentum viverra diam bibendum vitae.
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto " variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto " variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
         </div>
@@ -83,7 +84,7 @@ function Cards() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium tristique neque, fermentum viverra diam bibendum vitae.
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto" variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto" variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="card__item">
@@ -94,7 +95,7 @@ function Cards() {
                         Lorem ipsum dolor sit ametVestibulum feugiat et ex in vehicula. Nam pulvinar molestie libero, vel accumsan ligula bibendum eget.
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto" variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto" variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="card__item">
@@ -106,7 +107,7 @@ function Cards() {
     
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto" variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto" variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="card__item">
@@ -117,7 +118,7 @@ function Cards() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium tristique neque, fermentum viverra diam bibendum vitae.
                     </Card.Text>
                     <Card.Subtitle className="d-flex">6000 zł</Card.Subtitle>
-                    <Button className="mt-auto " variant="primary">SPRAWDŹ</Button>
+                    <Button className="mt-auto " variant="primary"><Link to="/products/testproduct">Sprawdź</Link></Button>
                 </Card.Body>
             </Card>
         </div>
