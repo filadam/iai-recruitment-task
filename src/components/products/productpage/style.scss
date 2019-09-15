@@ -1,0 +1,17 @@
+.about__product {
+  margin-top:50px;
+  .about__product--colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    img {
+      height: 70px;
+      border: solid 1px lightgray;
+      margin-right: 20px;
+      margin-top:10px;     
+      &:hover {
+        border-bottom: solid 3px red;
+      }
+    }
+  }
+}

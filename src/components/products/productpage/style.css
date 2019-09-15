@@ -1,3 +1,19 @@
-
+.about__product {
+  margin-top: 50px;
+}
+.about__product .about__product--colors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about__product .about__product--colors img {
+  height: 70px;
+  border: solid 1px lightgray;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.about__product .about__product--colors img:hover {
+  border-bottom: solid 3px red;
+}
 
 /*# sourceMappingURL=style.css.map */
