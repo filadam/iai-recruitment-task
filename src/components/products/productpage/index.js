@@ -7,6 +7,7 @@ import { faCheckSquare, faDollarSign, faTruck, faUndo, faPercent, faAward, faChe
 import Card from 'react-bootstrap/Card'
 import Accordion from 'react-bootstrap/Accordion'
 import ButtonBackground from './img/badge.png'
+import Baner from './img/baner.png'
 class ProductPage extends React.Component {
     state = {
         quantity: 1,
@@ -243,69 +244,162 @@ class ProductPage extends React.Component {
                         />
                         MARKERY FIRMY TIPPMANN
                     </h4>
-                    <div>
-                        <p >
-                            stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.
-                            FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego pierwowzoru.
-                            Marker jest trochę krótszy, korpus ma bardziej agresywny charakter, średnica zewnętrzna oraz wewnętrzna  lufy jest mniejsza oraz średnica otworu podającego kulki w magazynku grawitacyjnym jest dostosowana do kalubru 50Cal.
+                    <div className="row">
+                        <div className="col-8">
+                            <p >
+                                stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.
+                                FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego pierwowzoru.
+                                Marker jest trochę krótszy, korpus ma bardziej agresywny charakter, średnica zewnętrzna oraz wewnętrzna  lufy jest mniejsza oraz średnica otworu podającego kulki w magazynku grawitacyjnym jest dostosowana do kalubru 50Cal.
                             </p>
-                        <li style={{ listStyle: "none", }}>kompaktowy militarny wygląd</li>
-                        <li style={{ listStyle: "none", }}>szybkie serwisowanie bez użycia narzędzi</li>
-                        <li style={{ listStyle: "none", }}>aluminiowy chwyt i body</li>
-                        <li style={{ listStyle: "none", }}>wewnętrzny system gazowy "inline bolt system"</li>
-                        <li style={{ listStyle: "none", }}>modułowa konstrukcja</li>
-                        <li style={{ listStyle: "none", }}>stałe przyrządy celownicze</li>
-                        <li style={{ listStyle: "none", }}>Zestaw zawiera magazynek grawitacyjny oraz barrel bag (osłona lufy)</li>
-                        <h5>NASI KLIENCI PYTALI O:</h5>
-                        <Accordion defaultActiveKey="0">
-                            <Card>
-                                <Accordion.Toggle as={Card.Header} eventKey="0">
-                                    Czy ten pistolet jest idealny do gry w pintballa?
+                            <li style={{ listStyle: "none", }}>kompaktowy militarny wygląd</li>
+                            <li style={{ listStyle: "none", }}>szybkie serwisowanie bez użycia narzędzi</li>
+                            <li style={{ listStyle: "none", }}>aluminiowy chwyt i body</li>
+                            <li style={{ listStyle: "none", }}>wewnętrzny system gazowy "inline bolt system"</li>
+                            <li style={{ listStyle: "none", }}>modułowa konstrukcja</li>
+                            <li style={{ listStyle: "none", }}>stałe przyrządy celownicze</li>
+                            <li style={{ listStyle: "none", }}>Zestaw zawiera magazynek grawitacyjny oraz barrel bag (osłona lufy)</li>
+                            <h5
+                                style={{
+                                    marginTop: 20,
+                                }}
+                            >NASI KLIENCI PYTALI O:</h5>
+                            <Accordion defaultActiveKey="0">
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0">
+                                        Czy ten pistolet jest idealny do gry w pintballa?
                                 </Accordion.Toggle>
-                                <Accordion.Collapse eventKey="0">
-                                    <Card.Body>Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Accordion.Toggle as={Card.Header} eventKey="1">
-                                    Czy ten model posiada mechanizm spustowy ?
+                                    <Accordion.Collapse eventKey="0">
+                                        <Card.Body>Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="1">
+                                        Czy ten model posiada mechanizm spustowy ?
                                     </Accordion.Toggle>
-                                <Accordion.Collapse eventKey="1">
-                                    <Card.Body>Hello! I'm another body</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Accordion.Toggle as={Card.Header} eventKey="1">
-                                    Jakie dobrać naboje do tego sprzętu?
+                                    <Accordion.Collapse eventKey="1">
+                                        <Card.Body>Hello! I'm another body</Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="1">
+                                        Jakie dobrać naboje do tego sprzętu?
                                     </Accordion.Toggle>
-                                <Accordion.Collapse eventKey="1">
-                                    <Card.Body>Hello! I'm another body</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Accordion.Toggle as={Card.Header} eventKey="1">
-                                    Nie moge znależć instrukcji, czy mi ją doślecie?
+                                    <Accordion.Collapse eventKey="1">
+                                        <Card.Body>Hello! I'm another body</Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="1">
+                                        Nie moge znależć instrukcji, czy mi ją doślecie?
                                     </Accordion.Toggle>
-                                <Accordion.Collapse eventKey="1">
-                                    <Card.Body>Hello! I'm another body</Card.Body>
-                                </Accordion.Collapse>
-                            </Card>
-                        </Accordion>
-                        <h5>NIE ZNALAZŁEŚ ODPOWIEDZI? <button
-                            style={{
-                                border: "none",
-                                color: "white",
-                                fontWeight: "bold",
-                                backgroundImage: `url(${ButtonBackground})`,
-                                backgroundRepeat: "no-repeat",
-                                height: 50,
-                            }}
-                        >
-                            ZADAJ PYTANIE
+                                    <Accordion.Collapse eventKey="1">
+                                        <Card.Body>Hello! I'm another body</Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                            </Accordion>
+                            <h5
+                                style={{
+                                    marginTop: 20,
+                                }}
+                            >NIE ZNALAZŁEŚ ODPOWIEDZI? <button
+                                style={{
+                                    border: "none",
+                                    color: "white",
+                                    fontWeight: "bold",
+                                    backgroundImage: `url(${ButtonBackground})`,
+                                    backgroundRepeat: "no-repeat",
+                                    height: 50,
+                                }}
+                            >
+                                    ZADAJ PYTANIE
                             </button>
-                        </h5>
-                    </div>
+                            </h5>
+                        </div>
+                        <div>
+                            <Card
+                                style={{
+                                    width: 300,
+                                    listStyle: "none",
 
+                                }}
+                                className="">
+                                <Card.Img src={Baner} />
+                                <Card.Body className="d-flex ">
+                                    <Card.Text style={{
+                                        padding: 10,
+                                    }}>
+                                        <li>Numer Seryjny:</li>
+                                        <ul><b>1e54683</b></ul>
+                                        <li>Model:</li>
+                                        <ul><b>TIPPMANN</b></ul>
+                                        <li>Wykończenie:</li>
+                                        <ul><b>Czarny</b></ul>
+                                        <li>Kaliber:</li>
+                                        <ul><b>500mm</b></ul>
+                                        <li>Pojemność magazynka:</li>
+                                        <ul><b>1000</b></ul>
+                                        <li>Mechanizm Spustowy:</li>
+                                        <ul><b>SA</b></ul>
+                                        <li>Siła nacisku spustu:</li>
+                                        <ul><b>1.8kg</b></ul>
+                                        <li>Wymiary</li>
+                                        <ul><b>1200x123mm</b></ul>
+                                    </Card.Text>
+                                    <Card.Subtitle className="d-flex">
+
+
+                                    </Card.Subtitle>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </div>
+                    <h4>
+                        <FontAwesomeIcon
+                            style={{ color: "#da2128", marginTop: "3px", marginRight: 10, marginLeft: 15, marginTop: 30 }}
+                            className="faIcon"
+                            icon={faChevronRight}
+                        />
+                        PORADY NASZEGO EKSPERTA
+                    </h4>
+                    <div
+                        className="row"
+                        style={{
+                            marginTop: 30,
+                        }}
+                    >
+                        <div className="col">
+                            <h6>JAK TWORZYĆ SAMEMU FARBY DO GRY?</h6>
+                            <img
+                                style={{
+                                    width: 200,
+                                    height: 200,
+                                    float: "left",
+                                }}
+                                src="https://cdn.shopify.com/s/files/1/0535/4197/products/INFAMOUS-SILENCIO-TIP-WEBSITE-Product1.jpg?v=1561053581" />
+                            <p
+                                style={{
+                                    width: 500,
+                                    padding: 10,
+                                }}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+                        </div>
+                        <div className="col">
+                            <h6>JAK TWORZYĆ SAMEMU FARBY DO GRY?</h6>
+                            <img
+                                style={{
+                                    width: 200,
+                                    height: 200,
+                                    float: "left",
+                                }}
+                                src="https://cdn.shopify.com/s/files/1/0535/4197/products/INFAMOUS-SILENCIO-TIP-WEBSITE-Product1.jpg?v=1561053581" />
+                            <p
+                                style={{
+                                    width: 500,
+                                    padding: 10,
+                                }}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
