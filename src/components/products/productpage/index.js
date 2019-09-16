@@ -277,7 +277,7 @@ class ProductPage extends React.Component {
                                         Czy ten model posiada mechanizm spustowy ?
                                     </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="1">
-                                        <Card.Body>Hello! I'm another body</Card.Body>
+                                        <Card.Body>Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
                                 <Card>
@@ -285,7 +285,7 @@ class ProductPage extends React.Component {
                                         Jakie dobrać naboje do tego sprzętu?
                                     </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="1">
-                                        <Card.Body>Hello! I'm another body</Card.Body>
+                                        <Card.Body>Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
                                 <Card>
@@ -293,7 +293,7 @@ class ProductPage extends React.Component {
                                         Nie moge znależć instrukcji, czy mi ją doślecie?
                                     </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="1">
-                                        <Card.Body>Hello! I'm another body</Card.Body>
+                                        <Card.Body>Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
                             </Accordion>
