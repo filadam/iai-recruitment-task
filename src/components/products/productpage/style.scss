@@ -20,4 +20,10 @@
   .productInfo {
     flex-direction: column;
   }
+  .tips {
+    float: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }

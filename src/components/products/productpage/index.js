@@ -362,7 +362,7 @@ class ProductPage extends React.Component {
                         PORADY NASZEGO EKSPERTA
                     </h4>
                     <div
-                        className="row"
+                        className="row tips"
                         style={{
                             marginTop: 30,
                         }}
