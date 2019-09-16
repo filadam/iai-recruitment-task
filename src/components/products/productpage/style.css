@@ -84,9 +84,12 @@
 
   .quantityRow {
     flex-direction: column;
+    margin: 20px;
+    height: 100px;
   }
 
   .priceSection {
+    height: 80px;
     font-size: 12px;
   }
   .priceSection b {

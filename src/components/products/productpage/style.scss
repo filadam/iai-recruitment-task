@@ -84,9 +84,11 @@
   .quantityRow {
     // align-items: unset;
     flex-direction: column;
-    // margin: 20px;
+    margin: 20px;
+    height:100px;
   }
   .priceSection {
+    height:80px;
     font-size: 12px;
     b {
       font-size: 20px !important;
