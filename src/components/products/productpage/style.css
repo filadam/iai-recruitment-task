@@ -16,4 +16,10 @@
   border-bottom: solid 3px red;
 }
 
+@media only screen and (max-width: 1000px) {
+  .productInfo {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

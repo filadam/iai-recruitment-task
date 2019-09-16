@@ -45,7 +45,7 @@ class ProductPage extends React.Component {
         return (
             <div>
                 <div className="container" >
-                    <div className="row">
+                    <div className="row productInfo">
                         <div className="col">
                             <ProductGallery />
                         </div>

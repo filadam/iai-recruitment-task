@@ -1,5 +1,5 @@
 .about__product {
-  margin-top:50px;
+  margin-top: 50px;
   .about__product--colors {
     display: flex;
     flex-direction: row;
@@ -8,10 +8,16 @@
       height: 70px;
       border: solid 1px lightgray;
       margin-right: 20px;
-      margin-top:10px;     
+      margin-top: 10px;
       &:hover {
         border-bottom: solid 3px red;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .productInfo {
+    flex-direction: column;
   }
 }
