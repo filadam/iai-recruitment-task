@@ -46,7 +46,7 @@ class ProductPage extends React.Component {
             <div>
                 <div className="container" >
                     <div className="row productInfo">
-                        <div className="col">
+                        <div className="col flex">
                             <ProductGallery />
                         </div>
                         <div className="col about__product" style={{}}>
@@ -97,7 +97,7 @@ class ProductPage extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col" style={{ display: "flex", }}>
-                                    <a href="#" style={{ marginTop: 10, fontSize: 10 }}><b>SPRAWDŹ CZASY I KOSZTY WYSYŁKI</b></a>
+                                    <a className="parcel" href="#" style={{ marginTop: 10, fontSize: 10 }}><b>SPRAWDŹ CZASY I KOSZTY WYSYŁKI</b></a>
                                 </div>
                             </div>
                             <div className="row priceSection" style={{}}>
@@ -173,7 +173,7 @@ class ProductPage extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col" style={{ display: "flex", }}>
-                                    <a href="#" style={{ fontSize: 10 }}>DODAJ DO PORÓWNANIA</a>
+                                    <a className="parcel" href="#" style={{ fontSize: 10 }}>DODAJ DO PORÓWNANIA</a>
                                 </div>
                             </div>
                             <div className="row " style={{ marginTop: 30, border: "solid 1px lightgray", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "120px", }}>

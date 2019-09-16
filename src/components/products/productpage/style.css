@@ -17,6 +17,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .flex {
+    flex-basis: unset;
+  }
+
   .tips {
     float: none;
     width: 100%;
@@ -44,6 +48,10 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .flex {
+    flex-basis: unset;
+  }
+
   .tips {
     float: none;
     width: 100%;
@@ -138,6 +146,13 @@
   .description .description__info {
     flex: unset;
     max-width: unset;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .quantityRow {
+    flex-direction: unset;
+    margin: 20px;
+    height: 100px;
   }
 }
 
