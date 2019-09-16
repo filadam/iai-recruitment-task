@@ -49,7 +49,7 @@ class ProductPage extends React.Component {
                         <div className="col">
                             <ProductGallery />
                         </div>
-                        <div className="col about__product">
+                        <div className="col about__product" style={{}}>
                             <h3>
                                 {productList.name}</h3>
                             <p>PRODUCENT: <a href="#">{productList.manufacturer}</a> KOD PRODUKTU: {productList.id}</p>
@@ -59,7 +59,7 @@ class ProductPage extends React.Component {
                                     <img key={productList.key} src={productList.variant} alt="" />
                                 ))}
                             </div>
-                            <div className="row" style={{ marginTop: "20px" }}>
+                            <div className="row dropdownRow" style={{ marginTop: "20px" }}>
                                 <div className="col-sm" >
                                     Długość Lufy
                                 <Dropdown>
@@ -88,7 +88,7 @@ class ProductPage extends React.Component {
                                 </div>
 
                             </div>
-                            <div className="row" style={{ marginTop: "20px" }}>
+                            <div className="row quantityRow" style={{ marginTop: "20px" }}>
                                 <div className="col" style={{ display: "flex", }}>
                                     <FontAwesomeIcon style={{ color: "green" }} className="faIcon fa-4x " icon={faCheckSquare} />
                                     <div className="" style={{ flexDirection: "column", marginLeft: 10, fontSize: 10 }}>
@@ -100,7 +100,7 @@ class ProductPage extends React.Component {
                                     <a href="#" style={{ marginTop: 10, fontSize: 10 }}><b>SPRAWDŹ CZASY I KOSZTY WYSYŁKI</b></a>
                                 </div>
                             </div>
-                            <div className="row" style={{}}>
+                            <div className="row priceSection" style={{}}>
                                 <div className="col">
                                     <b style={{ fontSize: 26, }}>{productList.price}</b>
                                 </div>
@@ -163,7 +163,7 @@ class ProductPage extends React.Component {
                                         </button>
                                 </div>
                             </div>
-                            <div className="row" style={{ marginTop: 30, }}>
+                            <div className="row iconSection" style={{ marginTop: 30, }}>
 
                                 <div className="col" style={{ display: "flex", }}>
                                     <FontAwesomeIcon style={{ color: "red" }} className="faIcon fa-3x " icon={faDollarSign} />
@@ -176,7 +176,7 @@ class ProductPage extends React.Component {
                                     <a href="#" style={{ fontSize: 10 }}>DODAJ DO PORÓWNANIA</a>
                                 </div>
                             </div>
-                            <div className="row" style={{ marginTop: 30, border: "solid 1px lightgray", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "120px", }}>
+                            <div className="row " style={{ marginTop: 30, border: "solid 1px lightgray", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: "120px", }}>
 
                                 <div className="col" style={{ display: "flex", }}>
 
@@ -235,7 +235,7 @@ class ProductPage extends React.Component {
                         </Card>
                     </div>
                 </div>
-                <div className="container ">
+                <div className="container description">
                     <h4>
                         <FontAwesomeIcon
                             style={{ color: "#da2128", marginTop: "3px", marginRight: 10, marginLeft: 15, }}
@@ -297,23 +297,26 @@ class ProductPage extends React.Component {
                                     </Accordion.Collapse>
                                 </Card>
                             </Accordion>
-                            <h5
-                                style={{
-                                    marginTop: 20,
-                                }}
-                            >NIE ZNALAZŁEŚ ODPOWIEDZI? <button
-                                style={{
-                                    border: "none",
-                                    color: "white",
-                                    fontWeight: "bold",
-                                    backgroundImage: `url(${ButtonBackground})`,
-                                    backgroundRepeat: "no-repeat",
-                                    height: 50,
-                                }}
-                            >
+                            <div className="questionSection">
+                                <h5
+                                    style={{
+                                        marginTop: 20,
+                                    }}
+                                >NIE ZNALAZŁEŚ ODPOWIEDZI?
+                                </h5>
+                                <button
+                                    style={{
+                                        border: "none",
+                                        color: "white",
+                                        fontWeight: "bold",
+                                        backgroundImage: `url(${ButtonBackground})`,
+                                        backgroundRepeat: "no-repeat",
+                                        height: 50,
+                                    }}
+                                >
                                     ZADAJ PYTANIE
                             </button>
-                            </h5>
+                            </div>
                         </div>
                         <div>
                             <Card
@@ -378,7 +381,7 @@ class ProductPage extends React.Component {
                                 src="https://cdn.shopify.com/s/files/1/0535/4197/products/INFAMOUS-SILENCIO-TIP-WEBSITE-Product1.jpg?v=1561053581" />
                             <p
                                 style={{
-                                    width: 500,
+                                    // width: 500,
                                     padding: 10,
                                 }}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
@@ -394,7 +397,7 @@ class ProductPage extends React.Component {
                                 src="https://cdn.shopify.com/s/files/1/0535/4197/products/INFAMOUS-SILENCIO-TIP-WEBSITE-Product1.jpg?v=1561053581" />
                             <p
                                 style={{
-                                    width: 500,
+                                    // width: 500,
                                     padding: 10,
                                 }}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
