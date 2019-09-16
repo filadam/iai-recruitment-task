@@ -37,6 +37,15 @@
     align-items: center;
     justify-content: center;
   }
+
+  .questionSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
 }
 @media only screen and (max-width: 700px) {
   .productInfo {
@@ -138,6 +147,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .description .description__info {
+    flex: unset;
+    max-width: unset;
   }
 }
 

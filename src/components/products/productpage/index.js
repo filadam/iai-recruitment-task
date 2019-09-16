@@ -245,7 +245,7 @@ class ProductPage extends React.Component {
                         MARKERY FIRMY TIPPMANN
                     </h4>
                     <div className="row">
-                        <div className="col-8">
+                        <div className="col-8 description__info">
                             <p >
                                 stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.
                                 FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego pierwowzoru.
